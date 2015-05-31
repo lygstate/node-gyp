@@ -78,7 +78,7 @@
           '-luuid.lib',
           '-lodbc32.lib',
           '-lDelayImp.lib',
-          '-l"<(node_root_dir)/$(ConfigurationName)/iojs.lib"'
+          '-l"<(node_root_dir)/$(ConfigurationName)/<(node_dist_lib_name).lib"'
         ],
         'msvs_disabled_warnings': [
           # warning C4251: 'node::ObjectWrap::handle_' : class 'v8::Persistent<T>'
